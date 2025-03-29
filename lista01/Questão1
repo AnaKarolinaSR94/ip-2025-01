@@ -1,0 +1,18 @@
+programa
+{
+	inclua biblioteca Matematica -->m
+	
+	funcao inicio()
+	{
+	real media, n1, n2, n3
+	escreva("Informe as notas N1, N2 e N3 do aluno", "\n")
+	leia(n1, n2, n3)
+	media=(n1+n2+n3)/3
+	escreva("A média final do aluno é: ", m.arredondar(media, 2), "\n")
+	se 
+	(media >= 6)
+	escreva("Aprovado")
+	senao 
+	escreva("Reprovado")
+	}
+}
